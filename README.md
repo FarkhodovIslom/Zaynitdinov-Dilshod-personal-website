@@ -1,12 +1,45 @@
-# React + Vite
+# Zaynitdinov Dilshod's Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website showcasing my projects and skills. It is built using React and Vite, providing a modern and responsive user experience.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To set up the project locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/FarkhodovIslom/zaynitdinov-dilshod-personal-website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd zaynitdinov-dilshod-personal-website
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+
+To run the application in development mode, use the following command:
+```bash
+npm run dev
+```
+This will start the Vite development server, and you can view the application in your browser at `http://localhost:5173`.
+
+## Sections Overview
+
+- **Home**: A brief introduction and welcome message.
+- **About**: Information about me and my work.
+- **Portfolio**: A showcase of my latest projects.
+- **Contact**: A section to get in touch with me.
+
+## Technologies Used
+
+- React
+- Vite
+- ESLint
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
