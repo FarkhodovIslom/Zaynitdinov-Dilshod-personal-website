@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
             <div className="navbar-container">
                 <div className="navbar-logo">
-                    <span className="logo-text">D.Z.</span>
+                    <span className="logo-text">D.Z</span>
                 </div>
 
                 <ul className="navbar-menu">
