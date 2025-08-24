@@ -10,7 +10,7 @@ function App() {
             <main>
                 <section id="home" className="section">
                     <div className="content">
-                        <h1>Welcome to D.Z. Portfolio</h1>
+                        <h1>Welcome to my. Portfolio</h1>
                         <p>This is the home section</p>
                     </div>
                 </section>
