@@ -2,13 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Assalomu Alaykum. Men Zayniddinov Dilshodbek, bekorchi bo'laman">
-    <title>Zayniddinov Dilshod</title>
+    <title>Vite + Vue</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <!-- html2canvas – обязателен для снапшота задника -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+      defer
+    ></script>
+
+    <!-- liquidGL – глобальная функция window.liquidGL -->
+    <script
+      src="https://cdn.jsdelivr.net/gh/naughtyduk/liquidGL@main/scripts/liquidGL.js"
+      defer
+    ></script>
+
   </body>
 </html>
